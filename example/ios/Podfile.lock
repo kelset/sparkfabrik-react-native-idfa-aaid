@@ -1371,8 +1371,8 @@ SPEC CHECKSUMS:
   ReactCommon: ddb128564dcbfa0287d3d1a2d10f8c7457c971f6
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
   sparkfabrik-react-native-idfa-aaid: e80938d526b800a6c8d35fa6e3df3bad38d3976c
-  Yoga: 2b33a7ac96c58cdaa7b810948fc6a2a76ed2d108
+  Yoga: 4f53dc50008d626fa679c7a1cb4bed898f8c0bde
 
 PODFILE CHECKSUM: c25872b6c8e4ec17e5338750fa46de6bf56fcdce
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.14.2
