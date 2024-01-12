@@ -15,7 +15,7 @@ While developing, you can run the [example app](/example/) to test your changes.
 To start the packager:
 
 ```sh
-npm run example
+npm run example:start
 ```
 
 To run the example app on Android:
