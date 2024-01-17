@@ -11,14 +11,17 @@ const exclusionList = (() => {
 
 const blockList = exclusionList([
   // Block root project's copy of `react-native`
-  /(?<!.*\/sparkfabrik-react-native-idfa-aaid)\/node_modules\/react\/.*/,
-  /(?<!.*\/sparkfabrik-react-native-idfa-aaid)\/node_modules\/react-native\/.*/,
+  /(?<!example)\/node_modules\/react\/.*/,
+  /(?<!example)\/node_modules\/react-native\/.*/,
 ]);
 
 const config = {
   resolver: {
     blacklistRE: blockList,
     blockList,
+    extraNodeModules: {
+      'react-native': './node_modules/react-native',
+    },
   },
   transformer: {
     getTransformOptions: async () => ({
