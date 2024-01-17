@@ -12,6 +12,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@sparkfabrik/react-native-idfa-aaid": "file:../",
     "react": "18.2.0",
     "react-native": "0.71.6"
   },

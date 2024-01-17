@@ -40,6 +40,9 @@ const config = {
       },
     }),
   },
+  watchFolders: [
+    path.join(__dirname, 'node_modules', '@sparkfabrik/react-native-idfa-aaid'),
+  ],
 };
 
 try {
