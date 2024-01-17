@@ -47,6 +47,7 @@
   "homepage": "https://github.com/sparkfabrik/sparkfabrik-react-native-idfa-aaid#readme",
   "devDependencies": {
     "@commitlint/config-conventional": "^18.4.3",
+    "@expo/config-plugins": "^7.0.0",
     "@react-native-community/bob": "^0.17.1",
     "@react-native-community/eslint-config": "^3.2.0",
     "@react-native/babel-preset": "^0.74.0",
