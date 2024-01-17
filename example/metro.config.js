@@ -20,6 +20,7 @@ const config = {
     blacklistRE: blockList,
     blockList,
     extraNodeModules: {
+      'react': './node_modules/react',
       'react-native': './node_modules/react-native',
     },
   },
